@@ -1,0 +1,8 @@
+good
+best
+you are the best
+<<<<<<< HEAD
+I am test
+=======
+I am new master
+>>>>>>> 9657fbb (Modify on new)

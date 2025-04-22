@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../public/index-style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="login">
+            <h2>Login</h2>
+        </div>
+        <div class="form_wrap">
+            <form action="" class="login-form">
+                <div class="mb-3">
+                    <label for="username" class="form-label">用户名:</label>
+                    <input type="text" class="form-control username" name="username" placeholder="请输入用户名">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">密码:</label>
+                    <input type="password" class="form-control password" name="password" placeholder="请输入密码">
+                </div>
+                <button type="button" class="btn btn-primary btn-login">
+                    登录</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/form-serialize.js"></script>
+    <!-- 引入 art-template -->
+    <script src="https://cdn.jsdelivr.net/npm/art-template/lib/template-web.js"></script>
+    <!-- 引入 axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

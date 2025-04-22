@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人信息</title>
+    <link rel="stylesheet" href="../public/user-styles.css">
+</head>
+
+<body>
+    <div id="container">
+
+    </div>
+    <script id='template' type='text/html'>
+        <div class="myAvatar">
+            <img src='{{data.avaterFrame}}' alt="头像">
+        </div>
+        <div class="myInform">
+            <div class="username inform">
+                用户名:{{data.nickName}}
+            </div>
+            <div class="id inform">
+                ID:{{data.id}}
+            </div>
+            <div class="account inform">
+                账号:{{data.account}}
+            </div>
+            <div class="mobile inform">
+                手机号:{{data.mobile}}
+            </div>
+            <button type="button" class="btn btn-exit">退出登录</button>
+        </div>
+    </script>
+
+    <!-- 引入 art-template 和 Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/art-template/lib/template-web.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/user.js"></script>
+</body>
+
+</html>

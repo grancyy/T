@@ -1,0 +1,72 @@
+body {
+    background-image: url(../images/bgc.jpg);
+    margin: 0;
+    background-size: cover;
+    background-repeat: repeat-y;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 48%;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login {
+    height: 10vh;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(133, 129, 129);
+}
+
+h2 {
+    margin: 0;
+    font-size: xx-large;
+}
+
+.mb-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-label {
+    width: 15%;
+    font-size: large;
+}
+
+.form-control {
+    width: 70%;
+    height: 5vh;
+    border-radius: 2vh;
+    margin: 3vh 0;
+    border: 1px solid black;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.btn {
+    width: 80%;
+    height: 6vh;
+    border-radius: 2vh;
+    border: 0;
+    font-size: larger;
+    margin: 3vh 0;
+    background-color: black;
+    color: aliceblue;
+}
+
+.login-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
